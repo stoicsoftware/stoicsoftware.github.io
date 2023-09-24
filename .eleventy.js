@@ -1,3 +1,5 @@
+const { EleventyI18nPlugin } = require("@11ty/eleventy")
+
 module.exports = (eleventyConfig) => {
   const config = {
     dir: {
@@ -12,6 +14,12 @@ module.exports = (eleventyConfig) => {
   };
 
   eleventyConfig.setQuietMode(config.quietMode);
+
+  eleventyConfig.addPassthroughCopy('assets');
+
+  eleventyConfig.addPlugin(EleventyI18nPlugin, {
+    defaultLanguage: "en",
+  });
 
   return config;
 };
