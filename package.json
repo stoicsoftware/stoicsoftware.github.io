@@ -10,10 +10,14 @@
     "serve": "npx @11ty/eleventy --serve",
     "test": "echo \"Intentionally untested\""
   },
-  "keywords": ["netsuite", "suitescript"],
+  "keywords": [
+    "netsuite",
+    "suitescript"
+  ],
   "author": "Eric T Grubaugh <eric@stoic.software> (https://stoic.software/)",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2"
+    "@11ty/eleventy": "^2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
   }
 }
