@@ -1,8 +1,6 @@
 ---
-title: 'Counting Search Results'
+label: 'Counting Search Results'
 ---
-
-# How Many Results Does My Search Have?
 
 A common piece of information you'll need when running a search is how many results the search returns. There are (at
 least) two different ways to go about this. The first is much longer and less efficient, but introduces some 

@@ -1,12 +1,10 @@
 ---
-title: 'Introduction'
+label: 'Introduction'
 templateEngineOverride: njk,md
 ---
 
 {% set previousPost = collections.search | getPreviousCollectionItem %}
 {% set nextPost = collections.search | getNextCollectionItem %}
-
-# Searching in SuiteScript 2.1
 
 Last Updated: {{ page.date.toLocaleDateString() }} 
 
@@ -35,5 +33,5 @@ The `N/search` module is always imported as `search`.
 `console.log` is used for writing output to the browser console. If desired, you can replace these with your own calls
 to the `N/log` module for writing to the Execution Log for the debugger.
 
-{% if previousPost %}Previous Chapter: [{{ previousPost.data.title }}]({{ previousPost.url }}){% endif %}
-{% if nextPost %}Next Chapter: [{{ nextPost.data.title }}]({{ nextPost.url }}){% endif %}
+{% if previousPost %}Previous Chapter: [{{ previousPost.data.label }}]({{ previousPost.url }}){% endif %}
+{% if nextPost %}Next Chapter: [{{ nextPost.data.label }}]({{ nextPost.url }}){% endif %}

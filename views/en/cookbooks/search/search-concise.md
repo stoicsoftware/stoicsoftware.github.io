@@ -1,8 +1,6 @@
 ---
-title: 'A More Concise Search'
+label: 'A More Concise Search'
 ---
-
-# A More Concise Search
 
 As we saw in the first example, our Search Filters and Columns can be created as Arrays of Objects, but this gets 
 really verbose for searches with multiple Filters and Columns. For simple searches, there is a much more concise way 

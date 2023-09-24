@@ -1,8 +1,6 @@
 ---
-title: 'The Anatomy of a SuiteScript Search'
+label: 'The Anatomy of a SuiteScript Search'
 ---
-
-# The Anatomy of a SuiteScript Search
 
 In our first example, we create a Customer Search that retrieves all Customers located within the
 state of California:

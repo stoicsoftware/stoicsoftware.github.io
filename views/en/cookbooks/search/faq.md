@@ -1,8 +1,6 @@
 ---
-title: 'FAQ'
+label: 'FAQ'
 ---
-
-# FAQ
 
 ## How do I find the name/ID for a specific Filter?
 

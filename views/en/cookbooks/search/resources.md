@@ -1,8 +1,6 @@
 ---
-title: 'Recommendations and Resources'
+label: 'Recommendations and Resources'
 ---
-
-# Recommendations and Resources
 
 ## NetSuite Help
 

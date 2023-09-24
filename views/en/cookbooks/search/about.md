@@ -1,8 +1,6 @@
 ---
-title: 'About the Author'
+label: 'About the Author'
 ---
-
-# About the Author
 
 ![Eric T Grubaugh](/assets/img/self-portrait.jpg)
 
