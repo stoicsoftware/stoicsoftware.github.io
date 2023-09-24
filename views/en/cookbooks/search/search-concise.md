@@ -1,3 +1,6 @@
+---
+title: 'A More Concise Search'
+---
 
 # A More Concise Search
 
