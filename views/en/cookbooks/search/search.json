@@ -2,6 +2,6 @@
   "date": "Last Modified",
   "tags": ["search"],
   "eleventyNavigation": {
-    "parent": "Searching with SuiteScript"
+    "parent": "search"
   }
 }
