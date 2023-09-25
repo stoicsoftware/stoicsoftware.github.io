@@ -1,7 +1,9 @@
 ---
 label: 'When Ordered By'
 eleventyNavigation:
-  key: 'When Ordered By'
+  key: search-orderedby
+  title: 'When Ordered By'
+  order: 150
 ---
 
 ## Aggregating Transaction Results Based on Minimal/Maximal Values

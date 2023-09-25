@@ -1,8 +1,9 @@
 ---
 label: 'Searching by Transaction Status'
 eleventyNavigation:
-  key: 'Transaction Statuses'
-  order: 99
+  key: search-status
+  title: 'Transaction Status'
+  order: 160
 ---
 
 Frequently we need to retrieve or filter by Status in our Transaction Searches, but Statuses are notoriously 

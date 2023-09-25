@@ -1,7 +1,7 @@
 ---
 label: 'Loading and Executing a Saved Search'
 eleventyNavigation:
-  key: search-empty
+  key: search-load
   title: 'Loading and Executing a Saved Search'
   order: 70
 ---

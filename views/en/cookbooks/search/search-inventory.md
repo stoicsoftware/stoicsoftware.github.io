@@ -1,7 +1,9 @@
 ---
 label: 'Location-Based Inventory Searches'
 eleventyNavigation:
-  key: 'Location-Based Inventory Searches'
+  key: search-inventory
+  title: 'Location-Based Inventory Searches'
+  order: 170
 ---
 
 While not technically a Transaction Search, Inventory Searches are usually closely tied to Transactions.
