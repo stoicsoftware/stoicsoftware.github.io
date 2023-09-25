@@ -25,6 +25,17 @@ In *Searching in SuiteScript*, you'll see examples of:
 * How do I compare values between Search Columns?
 * Which Time Entries were entered late? (How to use Formula Filters and Columns)
 * Which Employees have zero time entries? (How to search for absence of something)
+* What are the totals on the 10 most recent Sales Orders? 
+* How many of each Item were ordered last month?
+* What are the Most Recent Sales Orders?
+* What are the Oldest Return Authorizations?
+* What are the Most Recent Sales Orders, with the Highest Amounts First?
+* What is the Amount of the Most Recent Sales Order by Customer?
+* Which Sales Rep had the Top Transaction in each Month?
+* Who is the Contact for the Most Recent Case Filed by a Customer?
+* What are all the unapproved Return Authorizations from last month?
+* How much On Hand Inventory do I have for each Item?
+* What is my Inventory breakdown at a specific Location?
 
 ## Patterns in this Book
 

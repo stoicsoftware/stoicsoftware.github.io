@@ -15,6 +15,8 @@ studying the following articles and any related sub-articles:
 * [search.filterExpression](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_458440490721.html)
 * [search.Column](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4345767216.html)
 * [Search.columns](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_456374450683.html)
+* [Search Summary Types](https://tstdrv1555136.app.netsuite.com/app/help/helpcenter.nl?fid=section_N659383.html)
+* [SQL Expressions](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_N2833020.html)
 
 ## The Records Browser
 
@@ -47,6 +49,14 @@ To use this plugin:
 ## NetSuite Professionals Slack Community
 
 If you are not already a member of the
-[NetSuite Professionals community](https://netsuiteprofessionals.com/slack/), I highly recommend you join us. Every day, 
-thousands of NetSuite Professionals from around the world collaborate here to learn, troubleshoot, and grow our 
+[NetSuite Professionals community](https://netsuiteprofessionals.com/slack/), I highly recommend you join us. Every 
+day, thousands of NetSuite Professionals from around the world collaborate here to learn, troubleshoot, and grow our 
 NetSuite skills - and it's completely free.
+
+## Mozilla Developer Network
+
+SuiteScript is simply a library on top of JavaScript, and the best JavaScript reference manual is the Mozilla 
+Developer Network: https://developer.mozilla.org/
+
+While not related specifically to NetSuite, this site is an excellent source of JavaScript reference material, 
+examples, and tutorials.
