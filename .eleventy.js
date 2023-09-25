@@ -1,5 +1,6 @@
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = (eleventyConfig) => {
   const config = {
@@ -22,6 +23,7 @@ module.exports = (eleventyConfig) => {
     defaultLanguage: "en",
   });
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   return config;
 };
