@@ -24,3 +24,8 @@ column is what you'll use as your Join name.
 * *Connect Browser* - Used for accessing Record data via *ODBC*
 
 When you're writing SuiteScript, you can safely focus only on the Records Browser.
+
+## How do I find the details on NetSuite's SQL formulas?
+
+[SQL Expressions](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_N2833020.html)
+contains all the reference material for the supported SQL functions you can utilize.
