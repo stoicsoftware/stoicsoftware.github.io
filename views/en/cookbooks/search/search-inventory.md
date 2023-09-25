@@ -1,5 +1,7 @@
 ---
 label: 'Location-Based Inventory Searches'
+eleventyNavigation:
+  key: 'Location-Based Inventory Searches'
 ---
 
 While not technically a Transaction Search, Inventory Searches are usually closely tied to Transactions.

@@ -1,5 +1,7 @@
 ---
 label: 'Handling Large Result Sets'
+eleventyNavigation:
+  key: 'Handling Large Result Sets'
 ---
 
 SuiteScript's various Search APIs are limited in the number of Results they will retrieve:

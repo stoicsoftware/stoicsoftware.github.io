@@ -1,5 +1,7 @@
 ---
 label: 'The `mainline` Transaction Filter'
+eleventyNavigation:
+  key: 'mainline Filter'
 ---
 
 NetSuite's data model consists fundamentally of Records, which are split into "body" and "sublist" fields. In 

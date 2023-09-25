@@ -1,5 +1,9 @@
 ---
 label: 'Filter Expressions'
+eleventyNavigation:
+  key: search-expressions
+  title: 'Filter Expressions'
+  order: 40
 ---
 
 Filter Expressions are an alternate, more concise syntax for specifying our Search Filters. They also enable 

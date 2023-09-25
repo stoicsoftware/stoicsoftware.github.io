@@ -1,5 +1,7 @@
 ---
 label: 'When Ordered By'
+eleventyNavigation:
+  key: 'When Ordered By'
 ---
 
 ## Aggregating Transaction Results Based on Minimal/Maximal Values

@@ -1,5 +1,9 @@
 ---
 label: 'Filtering by Empty Fields'
+eleventyNavigation:
+  key: search-empty
+  title: 'Filtering by Empty Fields'
+  order: 60
 ---
 
 It is often the case that we will need to search for an empty field. How we filter for empty fields will vary 

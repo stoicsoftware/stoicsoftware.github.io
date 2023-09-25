@@ -1,5 +1,9 @@
 ---
 label: 'The Anatomy of a SuiteScript Search'
+eleventyNavigation:
+  key: 'search-basic'
+  title: 'Anatomy of a Search'
+  order: 10
 ---
 
 In our first example, we create a Customer Search that retrieves all Customers located within the

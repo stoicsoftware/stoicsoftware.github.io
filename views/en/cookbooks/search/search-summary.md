@@ -1,5 +1,7 @@
 ---
 label: 'Summarized Search Filters'
+eleventyNavigation:
+  key: 'Summarized Filters'
 ---
 
 There are many times we'll want to _filter_ Search Results based on an aggregate value, like a `SUM`, `COUNT`, or 

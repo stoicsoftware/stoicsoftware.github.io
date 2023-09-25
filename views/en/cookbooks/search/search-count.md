@@ -1,5 +1,9 @@
 ---
 label: 'Counting Search Results'
+eleventyNavigation:
+  key: search-count
+  title: 'Counting Search Results'
+  order: 30
 ---
 
 A common piece of information you'll need when running a search is how many results the search returns. There are (at

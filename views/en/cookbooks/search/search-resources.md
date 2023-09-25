@@ -1,5 +1,9 @@
 ---
 label: 'Recommendations and Resources'
+eleventyNavigation:
+  key: search-resources
+  title: 'Resources for Searching'
+  order: 999
 ---
 
 ## NetSuite Help
