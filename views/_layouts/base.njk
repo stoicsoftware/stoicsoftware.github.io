@@ -7,6 +7,10 @@
     <link href="https://unpkg.com/prismjs@1.x/themes/prism-tomorrow.css" rel="stylesheet">
   </head>
   <body>
+    {% include 'components/banner.njk' %}
+    {% include 'components/page_header.njk' %}
+    {% include 'components/nav.njk' %}
     {{ content | safe }}
+    {% include 'components/page_footer.njk' %}
   </body>
 </html>

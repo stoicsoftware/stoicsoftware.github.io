@@ -1,5 +1,6 @@
 ---
-label: 'About the Author'
+title: 'About Eric T Grubaugh'
+layout: page.njk
 ---
 
 ![Eric T Grubaugh](/assets/img/self-portrait.jpg)

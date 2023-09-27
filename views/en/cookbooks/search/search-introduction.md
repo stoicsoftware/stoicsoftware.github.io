@@ -1,12 +1,6 @@
 ---
 label: 'Introduction'
-templateEngineOverride: njk,md
 ---
-
-{% set previousPost = collections.search | getPreviousCollectionItem %}
-{% set nextPost = collections.search | getNextCollectionItem %}
-
-Last Updated: {{ page.date.toLocaleDateString() }} 
 
 This SuiteScript cookbook is intended to provide you with simple, practical examples of building searches with the 
 SuiteScript API.
@@ -49,6 +43,3 @@ The `N/search` module is always imported as `search`.
 `console.log` is used for writing output to the browser console. If desired, you can replace these with your own calls
 to the `N/log` module for writing to the Execution Log for the debugger. For more on how to test SuiteScript 2.x in 
 your browser's console, watch [this tutorial video](https://www.youtube.com/watch?v=ZAN8clhKxIw&sub_confirmation=1).
-
-{% if previousPost %}Previous Chapter: [{{ previousPost.data.label }}]({{ previousPost.url }}){% endif %}
-{% if nextPost %}Next Chapter: [{{ nextPost.data.label }}]({{ nextPost.url }}){% endif %}

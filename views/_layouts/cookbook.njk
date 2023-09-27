@@ -1,4 +1,7 @@
 ---
-layout: main.njk
+layout: base.njk
 ---
+<main>
+{% include 'components/cookbook_sidebar.njk' %}
 {{ content | safe }}
+</main>

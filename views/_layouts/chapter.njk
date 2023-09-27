@@ -1,6 +1,8 @@
 ---
 layout: cookbook.njk
 ---
-
+{% include 'components/cookbook_breadcrumb.njk' %}
 <h1>{{ label }}</h1>
+{% include 'components/toc.njk' %}
 {{ content | safe }}
+{% include 'components/sequence_links.njk' %}

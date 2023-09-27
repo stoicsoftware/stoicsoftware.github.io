@@ -12,7 +12,7 @@ module.exports = (eleventyConfig) => {
       output: '_site'
     },
     pathPrefix: '/',
-    quietMode: false
+    quietMode: true
   };
 
   eleventyConfig.setQuietMode(config.quietMode);
@@ -23,12 +23,12 @@ module.exports = (eleventyConfig) => {
     defaultLanguage: "en",
   });
   eleventyConfig.addPlugin(syntaxHighlight);
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  // eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  eleventyConfig.addCollection('sidebarNav', collection =>
-    collection.getAll()
-      .filter(item => item.data?.eleventyNavigation && !item.data?.excludeFromSidebar)
-  );
+  // eleventyConfig.addCollection('sidebarNav', collection =>
+  //   collection.getAll()
+  //     .filter(item => item.data?.eleventyNavigation && !item.data?.excludeFromSidebar)
+  // );
 
   return config;
 };
