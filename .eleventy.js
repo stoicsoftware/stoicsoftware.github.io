@@ -25,5 +25,10 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+  eleventyConfig.addCollection('sidebarNav', collection =>
+    collection.getAll()
+      .filter(item => item.data?.eleventyNavigation && !item.data?.excludeFromSidebar)
+  );
+
   return config;
 };

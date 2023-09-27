@@ -1,0 +1,12 @@
+<div class="elv-toc">
+<details-force-state>
+	<details open>
+		<summary>Site Nav</summary>
+
+		{%- if eleventyNavigation -%}
+			{%- set navKey = eleventyNavigation.key -%}
+		{%- endif -%}
+		{{ collections.sidebarNav | eleventyNavigation | eleventyNavigationToHtml({ activeKey: navKey, listClass: 'elv-toc-list', activeListItemClass: 'elv-toc-active' }) | safe }}
+	</details>
+</details-force-state>
+</div>
