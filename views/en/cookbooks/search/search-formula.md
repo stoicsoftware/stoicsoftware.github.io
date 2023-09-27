@@ -1,9 +1,5 @@
 ---
-label: 'Formulas in Searches'
-eleventyNavigation:
-  key: search-formula
-  title: 'Search Formulas'
-  order: 100
+chapterTitle: 'Formulas in Searches'
 ---
 
 In order to perform calculations or comparisons on fields in our Search Results, we need to leverage NetSuite's 

@@ -1,7 +1,4 @@
 {
   "date": "Last Modified",
-  "tags": ["search"],
-  "eleventyNavigation": {
-    "parent": "search"
-  }
+  "tags": ["search"]
 }

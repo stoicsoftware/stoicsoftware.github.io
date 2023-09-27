@@ -1,9 +1,5 @@
 ---
-label: 'Joins: Retrieving Data from Related Records'
-eleventyNavigation:
-  key: search-joins
-  title: 'Joins'
-  order: 50
+chapterTitle: 'Joins: Retrieving Data from Related Records'
 ---
 
 So far all of our searches have only retrieved data from the exact records that show up in our results. We know from 

@@ -1,9 +1,5 @@
 ---
-label: 'Internal IDs in Search Results'
-eleventyNavigation:
-  key: search-internalid
-  title: 'Internal IDs in Search Results'
-  order: 120
+chapterTitle: 'Internal IDs in Search Results'
 ---
 
 Every Search Result in SuiteScript is fundamentally a reference to a Record in NetSuite. It's very common

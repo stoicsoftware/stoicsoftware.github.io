@@ -1,9 +1,5 @@
 ---
-label: 'A More Concise Search'
-eleventyNavigation:
-  key: search-concise
-  title: 'Concise Search Syntax'
-  order: 20
+chapterTitle: 'A More Concise Search'
 ---
 
 As we saw in the first example, our Search Filters and Columns can be created as Arrays of Objects, but this gets 

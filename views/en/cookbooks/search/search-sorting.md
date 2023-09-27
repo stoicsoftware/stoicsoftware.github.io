@@ -1,9 +1,5 @@
 ---
-label: 'Sorting Search Results'
-eleventyNavigation:
-  key: search-sorting
-  title: 'Sorting Search Results'
-  order: 140
+chapterTitle: 'Sorting Search Results'
 ---
 
 We can of course sort our Search Results from SuiteScript, just like we can in the UI. This is not limited to just 

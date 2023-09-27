@@ -1,9 +1,5 @@
 ---
-label: 'Loading and Executing a Saved Search'
-eleventyNavigation:
-  key: search-load
-  title: 'Loading and Executing a Saved Search'
-  order: 70
+chapterTitle: 'Loading and Executing a Saved Search'
 ---
 
 Thus far we've been creating our own SuiteScript Searches from scratch, but we can also leverage Saved Searches 

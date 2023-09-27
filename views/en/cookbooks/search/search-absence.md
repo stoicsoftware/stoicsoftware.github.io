@@ -1,9 +1,5 @@
 ---
-label: Finding Absent Records
-eleventyNavigation:
-  key: search-absence
-  title: 'Finding Absent Records'
-  order: 110
+chapterTitle: 'Finding Absent Records'
 ---
 
 The majority of the time that we're building searches, we're searching for the *existence* of Records that meet our 

@@ -1,9 +1,5 @@
 ---
-label: 'FAQ'
-eleventyNavigation:
-  key: search-faq
-  title: 'FAQ'
-  order: 900
+chapterTitle: 'FAQ'
 ---
 
 ## How do I find the name/ID for a specific Filter?
