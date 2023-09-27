@@ -1,6 +1,20 @@
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
+const randomIndex = list => {
+  if (!Array.isArray(list)) {
+    throw new TypeError('randomIndex: list is not an Array');
+  }
+  return Math.floor(Math.random() * list.length);
+}
+
+const randomKey = obj => {
+  if (typeof obj !== 'object') {
+    throw new TypeError('randomKey: obj is not an Object');
+  }
+  const keys = Object.keys(obj);
+  return keys[randomIndex(keys)];
+}
 
 module.exports = (eleventyConfig) => {
   const config = {
@@ -20,15 +34,21 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('assets');
 
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: "en",
+    defaultLanguage: 'en',
   });
   eleventyConfig.addPlugin(syntaxHighlight);
-  // eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  // eleventyConfig.addCollection('sidebarNav', collection =>
-  //   collection.getAll()
-  //     .filter(item => item.data?.eleventyNavigation && !item.data?.excludeFromSidebar)
-  // );
+  eleventyConfig.addFilter('randomPick', collection => {
+    if (Array.isArray(collection)) {
+      return collection[randomIndex(collection)];
+    }
+
+    if (typeof collection === 'object') {
+      return collection[randomKey(collection)];
+    }
+
+    throw new TypeError('randomPick: collection is neither Array nor Object');
+  });
 
   return config;
 };

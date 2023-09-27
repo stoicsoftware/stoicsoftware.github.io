@@ -1,1 +1,10 @@
-<p>banner</p>
+{%- set bannerLink = bannerLinks | randomPick %}
+{%- if bannerLink %}
+	<div class="announcement">
+  {% if bannerLink.url %}
+		<a href="{{ bannerLink.url }}">{{ bannerLink.label }}</a>
+  {% else %}
+		<span>{{ bannerLink.label }}</span>
+  {% endif %}
+	</div>
+{%- endif %}
