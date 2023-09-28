@@ -1,4 +1,5 @@
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
+const eleventyNavigation = require("@11ty/eleventy-navigation");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 const randomIndex = list => {
@@ -25,6 +26,7 @@ module.exports = (eleventyConfig) => {
       layouts: '_layouts',
       output: '_site'
     },
+    markdownTemplateEngine: 'njk',
     pathPrefix: '/',
     quietMode: true
   };
@@ -37,6 +39,7 @@ module.exports = (eleventyConfig) => {
     defaultLanguage: 'en',
   });
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(eleventyNavigation);
 
   eleventyConfig.addFilter('randomPick', collection => {
     if (Array.isArray(collection)) {

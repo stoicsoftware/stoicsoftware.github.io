@@ -1,5 +1,10 @@
 ---
 chapterTitle: 'Introduction'
+tags: ['cookbooks']
+eleventyNavigation:
+  key: 'cookbook-search'
+  parent: 'cookbooks'
+  title: 'Searching with SuiteScript'
 ---
 
 This SuiteScript cookbook is intended to provide you with simple, practical examples of building searches with the 

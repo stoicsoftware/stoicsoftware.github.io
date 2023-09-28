@@ -1,1 +1,3 @@
-<nav>nav</nav>
+<nav>
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+</nav>
