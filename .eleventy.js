@@ -1,21 +1,7 @@
-const { EleventyI18nPlugin } = require("@11ty/eleventy")
-const eleventyNavigation = require("@11ty/eleventy-navigation");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-
-const randomIndex = list => {
-  if (!Array.isArray(list)) {
-    throw new TypeError('randomIndex: list is not an Array');
-  }
-  return Math.floor(Math.random() * list.length);
-}
-
-const randomKey = obj => {
-  if (typeof obj !== 'object') {
-    throw new TypeError('randomKey: obj is not an Object');
-  }
-  const keys = Object.keys(obj);
-  return keys[randomIndex(keys)];
-}
+const { EleventyI18nPlugin } = require('@11ty/eleventy')
+const eleventyNavigation = require('@11ty/eleventy-navigation');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const { randomPick } = require('./src/filters/randomPick');
 
 module.exports = (eleventyConfig) => {
   const config = {
@@ -41,17 +27,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigation);
 
-  eleventyConfig.addFilter('randomPick', collection => {
-    if (Array.isArray(collection)) {
-      return collection[randomIndex(collection)];
-    }
-
-    if (typeof collection === 'object') {
-      return collection[randomKey(collection)];
-    }
-
-    throw new TypeError('randomPick: collection is neither Array nor Object');
-  });
+  eleventyConfig.addFilter('randomPick', randomPick);
 
   return config;
 };

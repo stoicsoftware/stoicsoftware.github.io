@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: 'page'
 eleventyNavigation:
-  key: cookbooks
-  title: Cookbooks
+  key: 'cookbooks'
+  title: 'Cookbooks'
 ---
+
 # SuiteScript Cookbooks
 
 Practical examples of common SuiteScript tasks
 
-{{ collections.all | eleventyNavigation: "cookbooks" | eleventyNavigationToMarkdown }}
+{{ collections.all | eleventyNavigation | eleventyNavigationToMarkdown }}
