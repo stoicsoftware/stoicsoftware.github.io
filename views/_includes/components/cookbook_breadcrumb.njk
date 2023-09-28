@@ -1,1 +1,4 @@
-<p>breadcrumb</p>
+{% set navOptions = { allowMissing: true, includeSelf: true } %}
+{% set breadcrumbPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, navOptions) %}
+
+{{ breadcrumbPages | eleventyNavigationToHtml | safe }}

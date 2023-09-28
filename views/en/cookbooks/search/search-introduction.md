@@ -1,6 +1,5 @@
 ---
 chapterTitle: 'Introduction'
-tags: ['cookbooks']
 eleventyNavigation:
   key: 'cookbook-search'
   parent: 'cookbooks'

@@ -1,5 +1,8 @@
 ---
 chapterTitle: 'A More Concise Search'
+eleventyNavigation:
+  key: 'cookbook-search-concise'
+  title: 'A More Concise Search'
 ---
 
 As we saw in the first example, our Search Filters and Columns can be created as Arrays of Objects, but this gets 
