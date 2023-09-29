@@ -2,6 +2,7 @@ const { EleventyI18nPlugin } = require('@11ty/eleventy')
 const eleventyNavigation = require('@11ty/eleventy-navigation');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const { randomPick } = require('./src/filters/randomPick');
+const sorts = require('./src/sorts');
 
 module.exports = (eleventyConfig) => {
   const config = {
@@ -28,6 +29,10 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(eleventyNavigation);
 
   eleventyConfig.addFilter('randomPick', randomPick);
+
+  eleventyConfig.addCollection('navmain', function(collectionApi) {
+    return collectionApi.getFilteredByTag('nav-main').sort(sorts.byNavOrder);
+  });
 
   return config;
 };

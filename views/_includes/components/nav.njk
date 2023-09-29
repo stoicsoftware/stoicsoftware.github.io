@@ -1,3 +1,9 @@
 <nav>
-{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+  <ul>
+  {%- for entry in collections['navmain'] -%}
+    <li>
+      <a href="{{ entry.url or entry.data.eleventyNavigation.url }}">{{ entry.data.eleventyNavigation.title }}</a>
+    </li>
+  {%- endfor -%}
+  </ul>
 </nav>

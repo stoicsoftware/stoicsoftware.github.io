@@ -1,9 +1,11 @@
 ---
 layout: 'page'
 title: 'SuiteScript Cookbooks'
+tags: ['nav-main']
 eleventyNavigation:
   key: 'cookbooks'
   title: 'Cookbooks'
+  order: 1
 eleventyImport:
   collections: ['cookbooks']
 ---
