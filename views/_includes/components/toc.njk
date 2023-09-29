@@ -1,1 +1,6 @@
-<p>TOC</p>
+{% if not hideToc %}
+<details>
+  <summary>Table of Contents</summary>
+  {{ content | toc({tags: ['h2', 'h3']}) | safe }}
+</details>
+{% endif %}

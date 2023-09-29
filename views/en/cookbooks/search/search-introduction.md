@@ -1,5 +1,6 @@
 ---
 chapterTitle: 'Introduction'
+hideToc: true
 tags: ['cookbooks']
 eleventyNavigation:
   key: 'cookbook-search'
