@@ -1,4 +1,5 @@
 ---
+chapterSequence: 19
 chapterTitle: 'Recommendations and Resources'
 ---
 

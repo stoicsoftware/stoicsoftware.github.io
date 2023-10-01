@@ -1,4 +1,6 @@
 ---
+---
+chapterSequence: 13
 chapterTitle: 'The `mainline` Transaction Filter'
 ---
 

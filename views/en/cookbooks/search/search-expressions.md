@@ -1,4 +1,5 @@
 ---
+chapterSequence: 4
 chapterTitle: 'Filter Expressions'
 ---
 

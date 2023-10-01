@@ -1,4 +1,5 @@
 ---
+chapterSequence: 16
 chapterTitle: 'Searching by Transaction Status'
 ---
 

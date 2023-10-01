@@ -38,6 +38,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addCollection('navmain', (collectionApi) =>
     collectionApi.getFilteredByTag('nav-main').sort(sorts.byNavOrder));
+  eleventyConfig.addCollection('cookbook-search-sequence', (collectionApi) =>
+    collectionApi.getFilteredByTag('cookbook-search').sort(sorts.byChapterSequence));
 
   return config;
 };

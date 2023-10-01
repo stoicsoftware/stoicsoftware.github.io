@@ -1,4 +1,5 @@
 ---
+chapterSequence: 3
 chapterTitle: 'Counting Search Results'
 ---
 

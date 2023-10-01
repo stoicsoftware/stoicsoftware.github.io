@@ -1,4 +1,5 @@
 ---
+chapterSequence: 10
 chapterTitle: 'Formulas in Searches'
 ---
 

@@ -1,4 +1,5 @@
 ---
+chapterSequence: 7
 chapterTitle: 'Loading and Executing a Saved Search'
 ---
 

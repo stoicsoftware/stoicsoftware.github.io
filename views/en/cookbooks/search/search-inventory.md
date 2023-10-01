@@ -1,4 +1,5 @@
 ---
+chapterSequence: 17
 chapterTitle: 'Location-Based Inventory Searches'
 ---
 

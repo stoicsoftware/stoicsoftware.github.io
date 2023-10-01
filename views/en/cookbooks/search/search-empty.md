@@ -1,4 +1,5 @@
 ---
+chapterSequence: 6
 chapterTitle: 'Filtering by Empty Fields'
 ---
 

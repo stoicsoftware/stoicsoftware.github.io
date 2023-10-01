@@ -1,4 +1,5 @@
 ---
+chapterSequence: 12
 chapterTitle: 'Internal IDs in Search Results'
 ---
 

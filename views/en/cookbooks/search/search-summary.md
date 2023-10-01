@@ -1,4 +1,5 @@
 ---
+chapterSequence: 9
 chapterTitle: 'Summarized Search Filters'
 ---
 

@@ -1,4 +1,5 @@
 ---
+chapterSequence: 1
 chapterTitle: 'The Anatomy of a SuiteScript Search'
 ---
 

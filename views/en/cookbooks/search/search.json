@@ -3,5 +3,6 @@
   "tags": ["search"],
   "eleventyNavigation": {
     "parent": "cookbook-search"
-  }
+  },
+  "sequenceCollection": "cookbook-search-sequence"
 }

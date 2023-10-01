@@ -1,4 +1,5 @@
 ---
+chapterSequence: 2
 chapterTitle: 'A More Concise Search'
 eleventyNavigation:
   key: 'cookbook-search-concise'

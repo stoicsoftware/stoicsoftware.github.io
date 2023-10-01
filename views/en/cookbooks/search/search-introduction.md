@@ -1,4 +1,5 @@
 ---
+chapterSequence: 0
 chapterTitle: 'Introduction'
 hideToc: true
 tags: ['cookbooks']

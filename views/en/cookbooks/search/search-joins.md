@@ -1,4 +1,5 @@
 ---
+chapterSequence: 5
 chapterTitle: 'Joins: Retrieving Data from Related Records'
 ---
 

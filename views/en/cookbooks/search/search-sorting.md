@@ -1,4 +1,5 @@
 ---
+chapterSequence: 14
 chapterTitle: 'Sorting Search Results'
 ---
 

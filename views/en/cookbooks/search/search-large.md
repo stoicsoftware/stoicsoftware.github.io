@@ -1,4 +1,5 @@
 ---
+chapterSequence: 8
 chapterTitle: 'Handling Large Result Sets'
 ---
 
